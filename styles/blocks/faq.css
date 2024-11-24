@@ -1,0 +1,142 @@
+.faq {
+  display: flex;
+  gap: 24px;
+}
+
+.faq-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.faq-list h2 {
+  font-family: Poppins;
+  font-size: 42px;
+  font-weight: 500;
+  line-height: 63px;
+  color: #003366;
+}
+
+.faq-item {
+  border: 1px solid #003366;
+  border-radius: 16px;
+  padding: 30px 40px;
+  width: 770px;
+  position: relative;
+}
+
+.faq-open {
+  padding: 40px;
+}
+
+.faq-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.faq-header h3 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+.faq-open h3 {
+  margin-bottom: 30px;
+}
+
+.faq-open h3::after {
+  content: "";
+  width: 110%;
+  display: block;
+  margin-top: 30px;
+  border-top: 1px solid #0d4b92;
+}
+
+.toggle-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #003366;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  padding: 14px;
+  border-radius: 50%;
+}
+
+.active-button {
+  margin-bottom: 60px;
+}
+
+.faq-content {
+  line-height: 27px;
+}
+
+.faq-form {
+  background-color: #003366;
+  color: #fbfbfb;
+  border-radius: 14px;
+  padding: 60px;
+  margin-top: 83px;
+  box-shadow: 10px 10px 50px 0px #0062ff08;
+}
+
+.faq-form h2 {
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.faq-form h2::after {
+  content: "";
+  width: 100%;
+  display: block;
+  margin-top: 30px;
+  border-top: 1px solid #fbfbfb;
+}
+
+.faq-form form input {
+  background-color: #fbfbfb;
+  font-size: 18px;
+  width: 100%;
+  height: 64px;
+  border: 1px solid #ececec;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  padding: 12px 14px;
+}
+
+.faq-form form input::placeholder {
+  line-height: 27px;
+  color: #343434;
+}
+
+.faq-form form textarea {
+  font-family: Roboto;
+  font-size: 18px;
+  background-color: #fbfbfb;
+  width: 100%;
+  height: 114px;
+  border: 1px solid #c4c4c4;
+  border-radius: 4px;
+  margin-bottom: 40px;
+  padding: 12px 14px;
+}
+
+.faq-form form textarea::placeholder {
+  line-height: 27px;
+  color: #343434;
+}
+
+.faq-form form button {
+  margin: 0 92px;
+  padding: 14px 30px;
+  border-radius: 14px;
+  font-size: 20px;
+  line-height: 30px;
+  color: #003366;
+}

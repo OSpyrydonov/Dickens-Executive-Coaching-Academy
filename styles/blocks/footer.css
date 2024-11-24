@@ -1,0 +1,28 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 40px;
+  margin-bottom: 32px;
+}
+
+.footer p {
+  font-size: 16px;
+  line-height: 24px;
+  color: #003366;
+  margin-left: 160px;
+}
+
+.footer-nav-list {
+  display: flex;
+  gap: 30px;
+  list-style-type: none;
+}
+
+.footer-nav-list li a {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 16px;
+  text-decoration: none;
+  color: #343434;
+}

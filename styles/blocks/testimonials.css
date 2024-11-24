@@ -1,0 +1,111 @@
+.testimonials {
+  margin-bottom: 96px;
+}
+
+.testimonials-title {
+  font-family: Poppins;
+  text-transform: uppercase;
+  font-size: 42px;
+  font-weight: 500;
+  line-height: 63px;
+  color: #003366;
+  margin-bottom: 20px;
+}
+
+.testimonials-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  margin-bottom: 24px;
+}
+
+.testimonial-card {
+  display: flex;
+  background-color: #fbfbfb;
+  border: 1px solid #003366;
+  border-radius: 12px;
+  width: 660px;
+  padding: 20px 80px 20px 20px;
+  text-align: left;
+}
+
+.profile-image {
+  width: 100%;
+  border-radius: 12px;
+  margin-right: 20px;
+}
+
+.name {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  color: #343434;
+  margin-bottom: 2px;
+}
+
+.role {
+  font-size: 16px;
+  line-height: 24px;
+  color: #6b6b6b;
+  margin-bottom: 2px;
+}
+
+.rating {
+  margin-bottom: 16px;
+}
+
+.star-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.testimonial-text {
+  font-size: 16px;
+  line-height: 24px;
+  color: #343434;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 220px;
+  padding: 12px 14px;
+  border: 1px solid #bfccd8;
+  border-radius: 100px;
+}
+
+.nav-button {
+  background-color: #003366;
+  border: 1px solid #d1d9e6;
+  border-radius: 46px;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.prev-button {
+  background-color: #c2d1e0;
+}
+
+.dashs {
+  display: flex;
+  gap: 2px;
+}
+
+.dash {
+  width: 13px;
+  height: 4px;
+  border-radius: 20px;
+  background-color: #C2D1E0;
+}
+
+.dash.active {
+  width: 24px;
+  background-color: #003366;
+}
